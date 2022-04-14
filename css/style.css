@@ -89,7 +89,7 @@ header{
     width: 445px;
 }
 
-.painel li{
+.painel ol{
     display: inline-block;
     vertical-align: top;
     width: 140px;
