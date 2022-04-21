@@ -7,6 +7,22 @@ header{
     position: relative;
 }
 
+footer{
+    background-image: url(../img/fundo-rodape.png);
+
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
 .sacola{
     position: absolute;
     top: 0;
@@ -52,6 +68,22 @@ header{
     clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+
+.busca button{
+    /*Adicionando imagem*/
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    /*Tamanho da imagem*/
+    width: 20px;
+    height: 20px;
+
+    /*Imagem Replacement*/
+    text-indent: -9999px;
+
+    cursor: pointer;
 }
 
 .busca, .menu-departamentos{
@@ -119,4 +151,36 @@ header{
 .mais-vendidos{
     float: right;
     background-color: #DCDCF5;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social a{
+    /*Tamanho da imagem*/
+    height: 32px;
+    width: 32px;
+    /*Image replacement*/
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"]{
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"]{
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"]{
+    background-image: url(../img/googleplus.png);
+}
+
+.social li{
+    float: left;
+    margin-left: 25px;
 }
