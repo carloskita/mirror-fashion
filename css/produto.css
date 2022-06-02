@@ -48,6 +48,7 @@ label[for=azul]::after{
 .cores label img{
     display: block;
     max-width: 100%;
+    border: 2px solid #CCC;
 }
 
 .cores label:hover::after{
@@ -87,4 +88,61 @@ label[for=azul]::after{
     display: block;
     padding: 0.5em 1em;
     margin: 1em 0;
+}
+
+fieldset{
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em 0;
+    min-width: 240px;
+    width: 45%;
+}
+
+.detalhes{
+    padding: 2em 0;
+}
+
+.detalhes h2{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.detalhes p{
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 36em;
+}
+
+.table{
+    border-spacing: 0.2em;
+    border-collapse: separate;
+}
+
+thead{
+    background-color: #999;
+}
+
+thead th{
+    font-weight: bold;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+
+td{
+    padding: 0.3em;
+}
+
+tr:nth-child(2n){
+    background-color: #CCC;
+}
+
+td:first-child{
+    font-style: italic;
+}
+
+.produto-back{
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    border-top: 2px solid #CCC;
 }
