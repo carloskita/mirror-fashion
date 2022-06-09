@@ -70,6 +70,7 @@ footer .container{
 
 .destaque{
     margin-top: 10px;
+    position: relative;
 }
 
 .busca button{
@@ -245,4 +246,24 @@ footer .container{
 
 .mais-vendidos{
     background: linear-gradient(#DCDCF5, #F4BEBE);
+}
+
+.pause, .play{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.pause{
+    border-left: 10px solid #900;
+    border-right: 10px solid #900;
+    height: 30px;
+    width: 5px;
+}
+
+.play{
+    border-left: 25px solid #900;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
 }

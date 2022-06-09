@@ -146,3 +146,14 @@ td:first-child{
     margin-top: 1em;
     border-top: 2px solid #CCC;
 }
+
+.tamanhos output {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 3px solid #666;
+    border-radius: 50%;
+    color: #555;
+}
